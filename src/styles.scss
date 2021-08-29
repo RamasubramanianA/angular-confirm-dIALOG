@@ -1,0 +1,35 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.confirm-dialog-title {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.confirm-dialog-wrap {
+  margin: 0px;
+}
+.confirm-message {
+  display: flex;
+  padding: 20px;
+}
+
+.confirm-alert-icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+.dialog-padding-zero .mat-dialog-container {
+  padding: 0 !important;
+}
+
+/**  Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license */

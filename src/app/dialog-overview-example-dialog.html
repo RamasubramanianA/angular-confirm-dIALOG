@@ -1,0 +1,16 @@
+<div class="confirm-dialog-wrap">
+  <div class="confirm-dialog-title">Confirmation</div>
+  <div class="confirm-message">
+    <span class="material-icons confirm-alert-icon" >  warning  </span>
+    <p> Are you sure want to delete?</p>
+  </div>
+  <div>
+    <button mat-button (click)="onNoClick()">No Thanks</button>
+    <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+  </div>
+</div>
+
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
